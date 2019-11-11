@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra", "Infra\Infra.csproj", "{DCBD2C34-2B4A-4ABB-9320-07BECBAB3B56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{21A94B5F-877A-47FD-A221-8662ECFA3D05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC", "IoC\IoC.csproj", "{65619F21-ECC0-42F6-8D9A-AD26037A76E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{9CE5CD4B-637E-4F13-863E-ADC8DE75EBA3}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://zicard-accentiv.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = API\\API.csproj
+		SccProjectName1 = API
+		SccLocalPath1 = API
+		SccProjectUniqueName2 = IoC\\IoC.csproj
+		SccProjectName2 = IoC
+		SccLocalPath2 = IoC
+		SccProjectUniqueName3 = Dominio\\Dominio.csproj
+		SccProjectName3 = Dominio
+		SccLocalPath3 = Dominio
+		SccProjectUniqueName4 = Infra\\Infra.csproj
+		SccProjectName4 = Infra
+		SccLocalPath4 = Infra
+		SccProjectUniqueName5 = Utilidade\\Utilidade.csproj
+		SccProjectName5 = Utilidade
+		SccLocalPath5 = Utilidade
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCBD2C34-2B4A-4ABB-9320-07BECBAB3B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBD2C34-2B4A-4ABB-9320-07BECBAB3B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCBD2C34-2B4A-4ABB-9320-07BECBAB3B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCBD2C34-2B4A-4ABB-9320-07BECBAB3B56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21A94B5F-877A-47FD-A221-8662ECFA3D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A94B5F-877A-47FD-A221-8662ECFA3D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A94B5F-877A-47FD-A221-8662ECFA3D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21A94B5F-877A-47FD-A221-8662ECFA3D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65619F21-ECC0-42F6-8D9A-AD26037A76E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65619F21-ECC0-42F6-8D9A-AD26037A76E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65619F21-ECC0-42F6-8D9A-AD26037A76E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65619F21-ECC0-42F6-8D9A-AD26037A76E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE5CD4B-637E-4F13-863E-ADC8DE75EBA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE5CD4B-637E-4F13-863E-ADC8DE75EBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE5CD4B-637E-4F13-863E-ADC8DE75EBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE5CD4B-637E-4F13-863E-ADC8DE75EBA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
